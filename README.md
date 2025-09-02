@@ -1,17 +1,13 @@
 # python-assignment-7(@blockfuse labs)
 
 
-## README.md`** file that covers **all four tasks** in one place, written in a simple, neutral, human-like style.
 
+## This repository contains beginner-friendly Python tasks designed to practice: 
 
-
-### This repository contains beginner-friendly Python tasks designed to practice:  
 - Functions  
 - Dictionaries and Lists  
 - `*args` and `**kwargs`  
 - Basic problem-solving  
-
-Each task is small but practical, and can later be extended into bigger projects.  
 
 
 ##  Task 1: Library Management System  
@@ -31,7 +27,7 @@ Each task is small but practical, and can later be extended into bigger projects
 
   Future idea: extend this with classes (`Book`, `Library`) for an OOP version.
 
----
+
 
 ## Task 2: Voting System
 
@@ -39,9 +35,9 @@ Each task is small but practical, and can later be extended into bigger projects
 
 * Store candidates in a dictionary:
 
-  ```python
+  
   { "candidate_name": vote_count }
-  ```
+
 * Track voters using a set so each voter can only vote once.
 * Functions needed:
 
@@ -66,7 +62,7 @@ Each task is small but practical, and can later be extended into bigger projects
   * `purchase_product(product_id, quantity)`: Reduce stock if available.
   * `search_products(*args)`: Search products by name or category.
 
-> 📝 Future idea: turn this into a class-based system with `Product` and `Store` classes.
+  #### Future idea: turn this into a class-based system with `Product` and `Store` classes.
 
 
 ##  Task 4: Student Grading System
@@ -84,15 +80,18 @@ Each task is small but practical, and can later be extended into bigger projects
   * `calculate_average(student_id)`: Compute the average score.
   * `class_average()`: Compute the overall class average.
 
- 📝 Future idea: extend this to rank students or generate simple reports.
+ #### Future idea: extend this to rank students or generate simple reports.
 
 
 
-## ⚡ Notes
+##  Notes
 
 * Focus is on practicing `*args` and `**kwargs`.
+
 * Keep the solutions **simple and readable**.
+
 * Use only Python’s built-in features — no external libraries needed.
+
 * We will expand on each task later andbuild into a bigger project (using OOP).
 
 
